@@ -12,13 +12,8 @@ steps:
   commands:
     - "go build -o ./myapp"
 
-- name: publish  
-  image: plugins/docker
-  settings:
-    username:
-      from_secret: docker_username
-    password:
-      from_secret: docker_password
-    repo: prashkudocker/prashdockerrepo
-    auto_tag: true
-    auto_tag_suffix: testapp
+- name: run-script  
+  image: 915632791698.dkr.ecr.us-east-2.amazonaws.com/nginx-custom:vipul1
+  commands:
+   - ls -l
+  

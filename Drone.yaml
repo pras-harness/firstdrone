@@ -14,5 +14,6 @@ steps:
 
 - name: run-script  
   image: 915632791698.dkr.ecr.us-east-2.amazonaws.com/nginx-custom:vipul1
-  
+  commands:
+    - ls -l
   

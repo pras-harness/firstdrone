@@ -8,7 +8,7 @@ name: default
 steps:
 
 - name: run-script  
-  image: 915632791698.dkr.ecr.us-east-2.amazonaws.com/nginx-custom:vipul1
+  image: 915632791698.dkr.ecr.us-east-2.amazonaws.com/nginx-custom:latest
   commands:
     - ls -l
   

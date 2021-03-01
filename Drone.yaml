@@ -7,11 +7,6 @@ name: default
 
 steps:
 
-- name: build
-  image: golang:1.13
-  commands:
-    - "go build -o ./myapp"
-
 - name: run-script  
   image: 915632791698.dkr.ecr.us-east-2.amazonaws.com/nginx-custom:vipul1
   commands:

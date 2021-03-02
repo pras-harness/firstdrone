@@ -8,7 +8,7 @@ name: default
 steps:
 
 - name: build
-  image: 915632791698.dkr.ecr.us-east-2.amazonaws.com/nginx-custom:vipul1
+  image: public.ecr.aws/amazonlinux/amazonlinux:latest
   commands:
     - ls -l
     

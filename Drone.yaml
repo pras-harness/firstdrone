@@ -11,6 +11,11 @@ steps:
   image: 915632791698.dkr.ecr.us-east-2.amazonaws.com/vipul-test:latest
   commands:
     - ls -l
+  
+- name: run-script
+  image: golang:1.13
+  commands:
+    - "go build -o ./myapp"
     
 
   
